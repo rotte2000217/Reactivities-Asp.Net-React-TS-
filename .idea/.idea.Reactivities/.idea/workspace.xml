@@ -10,8 +10,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e3f7e88d-7d9a-4d60-89ab-4d36dc5fd97e" name="Changes" comment="Added MediatR package DI containers&#10;Activities: directory&#10;List class with Query">
-      <change afterPath="$PROJECT_DIR$/Application/Activities/Details.cs" afterDir="false" />
+    <list default="true" id="e3f7e88d-7d9a-4d60-89ab-4d36dc5fd97e" name="Changes" comment="Details.cs class for Query to get by Guid object">
+      <change afterPath="$PROJECT_DIR$/Application/Activities/Create.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Reactivities/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Reactivities/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -127,7 +127,7 @@
       <workItem from="1641295919349" duration="27878000" />
       <workItem from="1641422779966" duration="1115000" />
       <workItem from="1641742890476" duration="32000" />
-      <workItem from="1642071407869" duration="4294000" />
+      <workItem from="1642071407869" duration="5820000" />
     </task>
     <task id="LOCAL-00001" summary="Added React-TS Client-App">
       <created>1641327295077</created>
@@ -143,7 +143,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642074474061</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Details.cs class for Query to get by Guid object">
+      <created>1642076122236</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1642076122236</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,6 +174,7 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Added React-TS Client-App" />
     <MESSAGE value="Added MediatR package DI containers&#10;Activities: directory&#10;List class with Query" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added MediatR package DI containers&#10;Activities: directory&#10;List class with Query" />
+    <MESSAGE value="Details.cs class for Query to get by Guid object" />
+    <option name="LAST_COMMIT_MESSAGE" value="Details.cs class for Query to get by Guid object" />
   </component>
 </project>
