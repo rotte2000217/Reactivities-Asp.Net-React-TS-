@@ -1,35 +1,19 @@
 import React from "react";
 import { Button, Container, Menu } from "semantic-ui-react";
 
-export default function NavBar(this: any) {
-    
-    const { activeItem } = this.state
+export default function NavBar() {
     return(
-        <Menu>
-        <Menu.Item
-          name='editorials'
-          active={activeItem === 'editorials'}
-          onClick={this.handleItemClick}
-        >
-          Editorials
+        <Menu inverted fixed="top">
+        <Container> 
+        <Menu.Item header>
+            <img src = "/assets/logo.png" alt = "logo" style = {{marginRight: '10px'}}/>
+            Reactivities
         </Menu.Item>
-
-        <Menu.Item
-          name='reviews'
-          active={activeItem === 'reviews'}
-          onClick={this.handleItemClick}
-        >
-          Reviews
+        <Menu.Item name="Activities" />
+        <Menu.Item> 
+            <Button positive content ='Create Activity'/>
         </Menu.Item>
-
-        <Menu.Item
-          name='upcomingEvents'
-          active={activeItem === 'upcomingEvents'}
-          onClick={this.handleItemClick}
-        >
-          Upcoming Events
-        </Menu.Item>
-      </Menu>
+        </Container>
+        </Menu>
     )
-    
 }
