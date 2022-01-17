@@ -1,6 +1,6 @@
 import React from "react";
 import { Button, Card, Icon, Image } from "semantic-ui-react";
-import { Activity } from "../../../app/layout/models/activity";
+import { Activity } from "../../../app/models/activity";
 
 interface Props {
     activity: Activity;
