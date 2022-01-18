@@ -2,14 +2,16 @@ import { act } from '@testing-library/react';
 import React, { ChangeEvent, useState } from 'react';
 import { Button, Form, Segment } from 'semantic-ui-react';
 import { Activity } from '../../../app/models/activity';
+import { useStore } from '../../../app/stores/store';
 
 interface Props {
-    activity: Activity | undefined;
-    closeForm: () => void;
     createOrEdit: (activity: Activity) => void;
+    submitting: boolean;
 }
 
-export default function ActivityForm({activity: selectedActivity, closeForm, createOrEdit}: Props): JSX.Element {
+export default function ActivityForm({createOrEdit, submitting}: Props): JSX.Element {
+    const {activityStore} = useStore();
+    const {selectedActivity, closeForm} = activityStore;
 
     const initialState = selectedActivity ?? {
         id: '',
@@ -42,7 +44,7 @@ export default function ActivityForm({activity: selectedActivity, closeForm, cre
                 <Form.Input type='date' placeholder='Date' value={activity.date} name='date' onChange={handleInputChange}/>
                 <Form.Input placeholder='City' value={activity.city} name='city' onChange={handleInputChange}/>
                 <Form.Input placeholder='Venue' value={activity.venue} name='venue' onChange={handleInputChange}/>
-                <Button floated='right' positive type = 'submit' content='Submit' />
+                <Button loading={submitting} floated='right' positive type = 'submit' content='Submit' />
                 <Button onClick={closeForm} floated='right' type = 'button' content='Cancel' />
             </Form>
         </Segment>
