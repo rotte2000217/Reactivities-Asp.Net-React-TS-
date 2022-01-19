@@ -12,10 +12,10 @@ import { observer } from 'mobx-react-lite';
 function App() {
   const {activityStore} = useStore();
 
-  const [activities, setActivities] = useState<Activity[]>([]);
+  // const [activities, setActivities] = useState<Activity[]>([]);
   // const [selectedActivity, setSelectedActivity] = useState<Activity | undefined>(undefined);
   // const [editMode, setEditMode] = useState(false);
-  const [submitting, setSubmitting] = useState(false);
+  // const [submitting, setSubmitting] = useState(false);
 
   useEffect(() => {
     activityStore.loadActivities();
@@ -42,13 +42,13 @@ function App() {
   //   }
   // }
 
-  function handleDeleteActivity(id: string) {
-    setSubmitting(true);
-    agent.Activities.delete(id).then(() => {
-      setActivities([...activities.filter(x => x.id !== id)])
-      setSubmitting(false);
-    })
-  }
+  // function handleDeleteActivity(id: string) {
+  //   setSubmitting(true);
+  //   agent.Activities.delete(id).then(() => {
+  //     setActivities([...activities.filter(x => x.id !== id)])
+  //     setSubmitting(false);
+  //   })
+  // }
 
   if (activityStore.loadingInitial) return <LoadingComponent content='Loading app'/>
 
@@ -58,10 +58,10 @@ function App() {
       <NavBar />
       <Container style = {{marginTop: '7em'}}>
         <ActivityDashboard 
-        activities = {activityStore.activities}
-        // createOrEdit={handleCreateOrEditActivity}
-        deleteActivity={handleDeleteActivity}
-        submitting={submitting}
+        // activities = {activityStore.activities}
+        // // createOrEdit={handleCreateOrEditActivity}
+        // deleteActivity={handleDeleteActivity}
+        // submitting={submitting}
         />
       </Container>
       </>
