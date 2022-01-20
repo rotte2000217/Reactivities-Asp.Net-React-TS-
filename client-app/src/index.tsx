@@ -4,6 +4,8 @@ import ReactDOM from 'react-dom';
 import './app/layout/styles.css';
 import App from './app/layout/App';
 import reportWebVitals from './reportWebVitals';
+import { store, StoreContext } from './app/stores/store';
+import { BrowserRouter } from 'react-router-dom';
 
 const styleLink = document.createElement("link");
 styleLink.rel = "stylesheet";
@@ -11,7 +13,11 @@ styleLink.href = "https://cdn.jsdelivr.net/npm/semantic-ui/dist/semantic.min.css
 document.head.appendChild(styleLink);
 
 ReactDOM.render(
-    <App />,
+    <StoreContext.Provider value={store}>
+      <BrowserRouter>
+        <App />
+      </BrowserRouter>
+    </StoreContext.Provider>,
     document.getElementById('root')
 );
 

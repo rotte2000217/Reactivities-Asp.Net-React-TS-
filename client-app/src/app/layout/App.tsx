@@ -8,6 +8,9 @@ import agent from '../api/agent';
 import LoadingComponent from './LoadingComponent';
 import { useStore } from '../stores/store';
 import { observer } from 'mobx-react-lite';
+import HomePage from '../../features/activities/home/HomePage';
+import { Route, Routes } from 'react-router-dom';
+import ActivityForm from '../../features/activities/form/ActivityForm';
 
 function App() {
   const {activityStore} = useStore();
@@ -56,15 +59,14 @@ function App() {
   return (
     <>
       <NavBar />
-      <Container style = {{marginTop: '7em'}}>
-        <ActivityDashboard 
-        // activities = {activityStore.activities}
-        // // createOrEdit={handleCreateOrEditActivity}
-        // deleteActivity={handleDeleteActivity}
-        // submitting={submitting}
-        />
-      </Container>
-      </>
+        <Container style = {{marginTop: '7em'}}>
+          <Routes>
+            <Route path ="/" element={<HomePage/>} />
+            <Route path ='/activities' element={<ActivityDashboard/>} />
+            <Route path ='/createActivity' element={<ActivityForm/>} />
+          </Routes>
+        </Container>
+    </>
   );
 }
 
