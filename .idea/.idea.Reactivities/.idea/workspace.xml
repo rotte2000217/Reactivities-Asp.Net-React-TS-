@@ -11,16 +11,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e3f7e88d-7d9a-4d60-89ab-4d36dc5fd97e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/client-app/src/features/activities/dashboard/ActivityListItem.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Reactivities/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Reactivities/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client-app/src/app/layout/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/src/app/layout/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-app/src/app/layout/NavBar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/src/app/layout/NavBar.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client-app/src/app/stores/activityStore.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/src/app/stores/activityStore.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client-app/src/features/activities/dashboard/ActivityDashboard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/src/features/activities/dashboard/ActivityDashboard.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client-app/src/features/activities/dashboard/ActivityList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/src/features/activities/dashboard/ActivityList.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client-app/src/features/activities/details/ActivityDetails.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/src/features/activities/details/ActivityDetails.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client-app/src/features/activities/form/ActivityForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/src/features/activities/form/ActivityForm.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-app/src/features/activities/home/HomePage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/src/features/activities/home/HomePage.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,13 +53,14 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TODO_SCOPE" value="All Places" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\JetBrains Rider 2021.3.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -145,6 +145,8 @@
       <workItem from="1642511312766" duration="4456000" />
       <workItem from="1642580684674" duration="3287000" />
       <workItem from="1642671288620" duration="1578000" />
+      <workItem from="1642696605738" duration="76000" />
+      <workItem from="1642711152006" duration="2980000" />
     </task>
     <task id="LOCAL-00001" summary="Added React-TS Client-App">
       <created>1641327295077</created>
@@ -251,7 +253,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642606540356</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="added routing to ActivityForm.tsx">
+      <created>1642696641480</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1642696641480</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -305,6 +314,7 @@
     <MESSAGE value="by MobX changed Create and Edit requests in activityStore.ts, ActivityDashboard.tsx, and ActivityForm.tsx" />
     <MESSAGE value="Changed delete request by MobX" />
     <MESSAGE value="changed Delete request by MobX" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed Delete request by MobX" />
+    <MESSAGE value="added routing to ActivityForm.tsx" />
+    <option name="LAST_COMMIT_MESSAGE" value="added routing to ActivityForm.tsx" />
   </component>
 </project>
