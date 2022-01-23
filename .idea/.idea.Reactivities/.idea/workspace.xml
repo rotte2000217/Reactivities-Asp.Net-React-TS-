@@ -10,28 +10,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e3f7e88d-7d9a-4d60-89ab-4d36dc5fd97e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Application/Activities/ActivityValidator.cs" afterDir="false" />
+    <list default="true" id="e3f7e88d-7d9a-4d60-89ab-4d36dc5fd97e" name="Changes" comment="added Validator for error handling For create requests">
+      <change afterPath="$PROJECT_DIR$/Application/Core/Result.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Reactivities/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Reactivities/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application/Activities/Create.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Activities/Create.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Activities/Delete.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Activities/Delete.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application/Activities/Details.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Activities/Details.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Application.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Application.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/bin/Debug/net5.0/Application.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/Application/bin/Debug/net5.0/Application.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Activities/Edit.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Activities/Edit.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Activities/List.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Activities/List.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application/bin/Debug/net5.0/Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Application/bin/Debug/net5.0/Application.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application/bin/Debug/net5.0/Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Application/bin/Debug/net5.0/Application.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application/bin/Debug/net5.0/ref/Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Application/bin/Debug/net5.0/ref/Application.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/obj/Application.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Application/obj/Application.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/obj/Application.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Application/obj/Application.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/obj/Application.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/Application/obj/Application.csproj.nuget.g.targets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/obj/Debug/net5.0/Application.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Application/obj/Debug/net5.0/Application.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application/obj/Debug/net5.0/Application.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Application/obj/Debug/net5.0/Application.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/obj/Debug/net5.0/Application.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Application/obj/Debug/net5.0/Application.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application/obj/Debug/net5.0/Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Application/obj/Debug/net5.0/Application.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application/obj/Debug/net5.0/Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Application/obj/Debug/net5.0/Application.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application/obj/Debug/net5.0/ref/Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Application/obj/Debug/net5.0/ref/Application.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Application/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Application/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Application/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Application/obj/rider.project.restore.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Domain/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/rider.project.restore.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Persistence/obj/Debug/net5.0/Persistence.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Persistence/obj/Debug/net5.0/Persistence.csproj.AssemblyReference.cache" afterDir="false" />
@@ -163,7 +156,7 @@
       <workItem from="1642671288620" duration="1578000" />
       <workItem from="1642696605738" duration="76000" />
       <workItem from="1642711152006" duration="5645000" />
-      <workItem from="1642925263158" duration="2760000" />
+      <workItem from="1642925263158" duration="9785000" />
     </task>
     <task id="LOCAL-00001" summary="Added React-TS Client-App">
       <created>1641327295077</created>
@@ -291,7 +284,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642770443147</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="added Validator for error handling For create requests">
+      <created>1642928533559</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1642928533560</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -348,6 +348,7 @@
     <MESSAGE value="added routing to ActivityForm.tsx" />
     <MESSAGE value="Changed UI in ActivityListItem.tsx called from ActivityList.tsx" />
     <MESSAGE value="Changed Home Page UI, changed Activities UI, changed ActivityDetails" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed Home Page UI, changed Activities UI, changed ActivityDetails" />
+    <MESSAGE value="added Validator for error handling For create requests" />
+    <option name="LAST_COMMIT_MESSAGE" value="added Validator for error handling For create requests" />
   </component>
 </project>
