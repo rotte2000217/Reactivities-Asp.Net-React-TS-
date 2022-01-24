@@ -30,7 +30,7 @@ export default observer(function ActivityDashboard() {
                  <ActivityList /*activities={activities} 
                 deleteActivity={deleteActivity}
                 submitting={submitting}*/
-                />
+                />  
             </Grid.Column>
             <Grid.Column width='6'>
                 <ActivityFilters />
