@@ -34,7 +34,7 @@ namespace Application.Activities
             
             public async Task<Result<Unit>> Handle(Command request, CancellationToken cancellationToken)
             {
-                _context.Activities.AddAsync(request.Activity);
+                await _context.Activities.AddAsync(request.Activity);
 
                 var result = await _context.SaveChangesAsync() > 0;
 
