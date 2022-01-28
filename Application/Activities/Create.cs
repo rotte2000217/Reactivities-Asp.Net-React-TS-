@@ -51,7 +51,7 @@ namespace Application.Activities
                 
                 request.Activity.Attendees.Add(attendee);
                 
-                await _context.Activities.AddAsync(request.Activity);
+                _context.Activities.Add(request.Activity);
 
                 var result = await _context.SaveChangesAsync() > 0;
 
