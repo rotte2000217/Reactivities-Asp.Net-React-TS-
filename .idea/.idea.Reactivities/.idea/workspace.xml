@@ -10,30 +10,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e3f7e88d-7d9a-4d60-89ab-4d36dc5fd97e" name="Changes" comment="Added CancelledProperty migrations, created attend action which working with JWT Token different users">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Reactivities/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Reactivities/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Activities/Create.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Activities/Create.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/bin/Debug/net5.0/Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Application/bin/Debug/net5.0/Application.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/bin/Debug/net5.0/Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Application/bin/Debug/net5.0/Application.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/bin/Debug/net5.0/Persistence.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Application/bin/Debug/net5.0/Persistence.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/bin/Debug/net5.0/Persistence.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Application/bin/Debug/net5.0/Persistence.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/obj/Debug/net5.0/Application.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Application/obj/Debug/net5.0/Application.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/obj/Debug/net5.0/Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Application/obj/Debug/net5.0/Application.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/obj/Debug/net5.0/Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Application/obj/Debug/net5.0/Application.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Infrastructure/Security/IHostRequirement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/Security/IsHostRequirement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Persistence/Seed.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Persistence/Seed.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Persistence/bin/Debug/net5.0/Persistence.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Persistence/bin/Debug/net5.0/Persistence.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Persistence/bin/Debug/net5.0/Persistence.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Persistence/bin/Debug/net5.0/Persistence.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Persistence/obj/Debug/net5.0/Persistence.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Persistence/obj/Debug/net5.0/Persistence.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Persistence/obj/Debug/net5.0/Persistence.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Persistence/obj/Debug/net5.0/Persistence.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Persistence/obj/Debug/net5.0/Persistence.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Persistence/obj/Debug/net5.0/Persistence.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-app/src/app/models/activity.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/src/app/models/activity.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-app/src/app/stores/activityStore.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/src/app/stores/activityStore.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-app/src/features/activities/dashboard/ActivityListItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/src/features/activities/dashboard/ActivityListItem.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-app/src/features/activities/details/ActivityDetailedSidebar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/src/features/activities/details/ActivityDetailedSidebar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-app/src/features/activities/details/ActivityDetails.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/src/features/activities/details/ActivityDetails.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-app/src/features/activities/details/ActivityDetaledHeader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/src/features/activities/details/ActivityDetaledHeader.tsx" afterDir="false" />
-    </list>
+    <list default="true" id="e3f7e88d-7d9a-4d60-89ab-4d36dc5fd97e" name="Changes" comment="finished in backend-side joining in activity by JWT Token another users." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -178,7 +155,7 @@
       <workItem from="1642925263158" duration="15808000" />
       <workItem from="1643032388033" duration="3624000" />
       <workItem from="1643095439031" duration="19327000" />
-      <workItem from="1643188119878" duration="30696000" />
+      <workItem from="1643188119878" duration="30749000" />
     </task>
     <task id="LOCAL-00001" summary="Added React-TS Client-App">
       <created>1641327295077</created>
@@ -390,7 +367,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643303756647</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="finished in backend-side joining in activity by JWT Token another users.">
+      <created>1643382930534</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1643382930534</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -429,7 +413,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Added Folder Structer in React &#10;Added interface model&#10;Added NavBar but it doesn't work now" />
     <MESSAGE value="..." />
     <MESSAGE value="Added: &#10;ActivityDashBoard.tsx&#10;ActivityList.tsx&#10;ActivityDetails.tsx&#10;&#10;Changed in index.tsx&#10;didn't import semantic-ui-react &#10;added link semantic-ui-react" />
     <MESSAGE value="ActivityDetails.tsx working &#10;ActivityForm.tsx working" />
@@ -454,6 +437,7 @@
     <MESSAGE value="Created Registration form with JWT Tokens in client-side" />
     <MESSAGE value="Added many to many relationship with Activity.cs - AppUser.cs" />
     <MESSAGE value="Added CancelledProperty migrations, created attend action which working with JWT Token different users" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added CancelledProperty migrations, created attend action which working with JWT Token different users" />
+    <MESSAGE value="finished in backend-side joining in activity by JWT Token another users." />
+    <option name="LAST_COMMIT_MESSAGE" value="finished in backend-side joining in activity by JWT Token another users." />
   </component>
 </project>
