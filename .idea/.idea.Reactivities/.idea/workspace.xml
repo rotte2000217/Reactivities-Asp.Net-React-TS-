@@ -10,7 +10,48 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e3f7e88d-7d9a-4d60-89ab-4d36dc5fd97e" name="Changes" comment="finished in backend-side joining in activity by JWT Token another users." />
+    <list default="true" id="e3f7e88d-7d9a-4d60-89ab-4d36dc5fd97e" name="Changes" comment="added on client-side create, update and re-activate activities with JWT Tokens, showing users in ActivityList">
+      <change afterPath="$PROJECT_DIR$/Application/Interfaces/IPhotoAccessor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Application/Photos/PhotoUploadResult.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Domain/Photo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infrastructure/Photos/CloudinarySettings.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infrastructure/Photos/PhotoAccessor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Reactivities/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Reactivities/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/bin/Debug/net5.0/Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Application/bin/Debug/net5.0/Application.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/bin/Debug/net5.0/Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Application/bin/Debug/net5.0/Application.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/bin/Debug/net5.0/Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Application/bin/Debug/net5.0/Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/bin/Debug/net5.0/Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Application/bin/Debug/net5.0/Domain.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/bin/Debug/net5.0/Persistence.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Application/bin/Debug/net5.0/Persistence.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/bin/Debug/net5.0/Persistence.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Application/bin/Debug/net5.0/Persistence.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/bin/Debug/net5.0/ref/Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Application/bin/Debug/net5.0/ref/Application.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/obj/Debug/net5.0/Application.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Application/obj/Debug/net5.0/Application.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/obj/Debug/net5.0/Application.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Application/obj/Debug/net5.0/Application.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/obj/Debug/net5.0/Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Application/obj/Debug/net5.0/Application.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/obj/Debug/net5.0/Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Application/obj/Debug/net5.0/Application.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/obj/Debug/net5.0/ref/Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Application/obj/Debug/net5.0/ref/Application.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Application/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/AppUser.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/AppUser.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/bin/Debug/net5.0/Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/bin/Debug/net5.0/Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/bin/Debug/net5.0/Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/bin/Debug/net5.0/Domain.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/bin/Debug/net5.0/ref/Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/bin/Debug/net5.0/ref/Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/obj/Debug/net5.0/Domain.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/Debug/net5.0/Domain.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/obj/Debug/net5.0/Domain.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/Debug/net5.0/Domain.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/obj/Debug/net5.0/Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/Debug/net5.0/Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/obj/Debug/net5.0/Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/Debug/net5.0/Domain.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/obj/Debug/net5.0/ref/Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/Debug/net5.0/ref/Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Infrastructure/Infrastructure.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/Infrastructure.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Persistence/DataContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Persistence/DataContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Persistence/bin/Debug/net5.0/Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Persistence/bin/Debug/net5.0/Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Persistence/bin/Debug/net5.0/Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Persistence/bin/Debug/net5.0/Domain.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Persistence/bin/Debug/net5.0/Persistence.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Persistence/bin/Debug/net5.0/Persistence.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Persistence/bin/Debug/net5.0/Persistence.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Persistence/bin/Debug/net5.0/Persistence.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Persistence/bin/Debug/net5.0/ref/Persistence.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Persistence/bin/Debug/net5.0/ref/Persistence.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Persistence/obj/Debug/net5.0/Persistence.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Persistence/obj/Debug/net5.0/Persistence.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Persistence/obj/Debug/net5.0/Persistence.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Persistence/obj/Debug/net5.0/Persistence.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Persistence/obj/Debug/net5.0/ref/Persistence.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Persistence/obj/Debug/net5.0/ref/Persistence.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Persistence/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Persistence/obj/rider.project.restore.info" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -155,7 +196,7 @@
       <workItem from="1642925263158" duration="15808000" />
       <workItem from="1643032388033" duration="3624000" />
       <workItem from="1643095439031" duration="19327000" />
-      <workItem from="1643188119878" duration="30749000" />
+      <workItem from="1643188119878" duration="33370000" />
     </task>
     <task id="LOCAL-00001" summary="Added React-TS Client-App">
       <created>1641327295077</created>
@@ -374,7 +415,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643382930534</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="added on client-side create, update and re-activate activities with JWT Tokens, showing users in ActivityList">
+      <created>1643391788428</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1643391788428</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -413,7 +461,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="..." />
     <MESSAGE value="Added: &#10;ActivityDashBoard.tsx&#10;ActivityList.tsx&#10;ActivityDetails.tsx&#10;&#10;Changed in index.tsx&#10;didn't import semantic-ui-react &#10;added link semantic-ui-react" />
     <MESSAGE value="ActivityDetails.tsx working &#10;ActivityForm.tsx working" />
     <MESSAGE value="CRUD operations in REACT &#10;Added Create, Read, Update, Delete handle-functions" />
@@ -438,6 +485,7 @@
     <MESSAGE value="Added many to many relationship with Activity.cs - AppUser.cs" />
     <MESSAGE value="Added CancelledProperty migrations, created attend action which working with JWT Token different users" />
     <MESSAGE value="finished in backend-side joining in activity by JWT Token another users." />
-    <option name="LAST_COMMIT_MESSAGE" value="finished in backend-side joining in activity by JWT Token another users." />
+    <MESSAGE value="added on client-side create, update and re-activate activities with JWT Tokens, showing users in ActivityList" />
+    <option name="LAST_COMMIT_MESSAGE" value="added on client-side create, update and re-activate activities with JWT Tokens, showing users in ActivityList" />
   </component>
 </project>
