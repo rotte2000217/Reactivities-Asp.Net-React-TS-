@@ -10,10 +10,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e3f7e88d-7d9a-4d60-89ab-4d36dc5fd97e" name="Changes" comment="uploading Image on Back-end side">
-      <change afterPath="$PROJECT_DIR$/Application/Photos/SetMain.cs" afterDir="false" />
+    <list default="true" id="e3f7e88d-7d9a-4d60-89ab-4d36dc5fd97e" name="Changes" comment="Deleting image in backend-side">
+      <change afterPath="$PROJECT_DIR$/Application/Activities/AttendeeDto.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Reactivities/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Reactivities/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Photos/Delete.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Photos/Delete.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Activities/ActivityDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Activities/ActivityDto.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Core/MappingProfiles.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Core/MappingProfiles.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Profiles/Details.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Profiles/Details.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Profiles/Profile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Profiles/Profile.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application/bin/Debug/net5.0/Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Application/bin/Debug/net5.0/Application.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application/bin/Debug/net5.0/Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Application/bin/Debug/net5.0/Application.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application/bin/Debug/net5.0/ref/Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Application/bin/Debug/net5.0/ref/Application.dll" afterDir="false" />
@@ -168,7 +171,7 @@
       <workItem from="1642925263158" duration="15808000" />
       <workItem from="1643032388033" duration="3624000" />
       <workItem from="1643095439031" duration="19327000" />
-      <workItem from="1643188119878" duration="36255000" />
+      <workItem from="1643188119878" duration="38713000" />
     </task>
     <task id="LOCAL-00001" summary="Added React-TS Client-App">
       <created>1641327295077</created>
@@ -408,7 +411,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643461083427</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Deleting image in backend-side">
+      <created>1643462501962</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1643462501962</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -447,7 +457,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="CRUD operations in REACT &#10;Added Create, Read, Update, Delete handle-functions" />
     <MESSAGE value="created agent.tsx file for base URL and CRUD requests&#10;Added LoadingComponent which show view-loading for a second" />
     <MESSAGE value="changed many hands dirty methods in: ActivityDashboard.tsx, ActivityDetails.tsx, ActivityForm.tsx, ActivityList.tsx, NavBar.tsx, and App.tsx&#10;added MobX library which help work with observers and write code easy" />
     <MESSAGE value="by MobX changed Create and Edit requests in activityStore.ts, ActivityDashboard.tsx, and ActivityForm.tsx" />
@@ -472,6 +481,7 @@
     <MESSAGE value="added on client-side create, update and re-activate activities with JWT Tokens, showing users in ActivityList" />
     <MESSAGE value="Started working with uploadingPhotos, added PhotoAccessor.cs added ApiKey, ApiSecret and created migration for Entity" />
     <MESSAGE value="uploading Image on Back-end side" />
-    <option name="LAST_COMMIT_MESSAGE" value="uploading Image on Back-end side" />
+    <MESSAGE value="Deleting image in backend-side" />
+    <option name="LAST_COMMIT_MESSAGE" value="Deleting image in backend-side" />
   </component>
 </project>
