@@ -12,29 +12,44 @@
   <component name="ChangeListManager">
     <list default="true" id="e3f7e88d-7d9a-4d60-89ab-4d36dc5fd97e" name="Changes" comment="Added Create and List comments for SignalR and written Hub class for connecting.">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Reactivities/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Reactivities/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Comments/List.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Comments/List.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application/bin/Debug/net5.0/Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Application/bin/Debug/net5.0/Application.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application/bin/Debug/net5.0/Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Application/bin/Debug/net5.0/Application.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/bin/Debug/net5.0/Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Application/bin/Debug/net5.0/Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/bin/Debug/net5.0/Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Application/bin/Debug/net5.0/Domain.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application/bin/Debug/net5.0/Persistence.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Application/bin/Debug/net5.0/Persistence.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application/bin/Debug/net5.0/Persistence.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Application/bin/Debug/net5.0/Persistence.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application/bin/Debug/net5.0/ref/Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Application/bin/Debug/net5.0/ref/Application.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/obj/Application.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Application/obj/Application.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/obj/Application.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Application/obj/Application.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/obj/Application.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/Application/obj/Application.csproj.nuget.g.targets" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application/obj/Debug/net5.0/Application.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Application/obj/Debug/net5.0/Application.csproj.AssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application/obj/Debug/net5.0/Application.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Application/obj/Debug/net5.0/Application.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application/obj/Debug/net5.0/Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Application/obj/Debug/net5.0/Application.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application/obj/Debug/net5.0/Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Application/obj/Debug/net5.0/Application.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application/obj/Debug/net5.0/ref/Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Application/obj/Debug/net5.0/ref/Application.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Application/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Application/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/AppUser.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/AppUser.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/bin/Debug/net5.0/Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/bin/Debug/net5.0/Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/bin/Debug/net5.0/Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/bin/Debug/net5.0/Domain.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/bin/Debug/net5.0/ref/Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/bin/Debug/net5.0/ref/Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/obj/Debug/net5.0/Domain.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/Debug/net5.0/Domain.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/obj/Debug/net5.0/Domain.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/Debug/net5.0/Domain.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/obj/Debug/net5.0/Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/Debug/net5.0/Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/obj/Debug/net5.0/Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/Debug/net5.0/Domain.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/obj/Debug/net5.0/ref/Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/Debug/net5.0/ref/Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Persistence/DataContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Persistence/DataContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Persistence/Migrations/DataContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Persistence/Migrations/DataContextModelSnapshot.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Persistence/bin/Debug/net5.0/Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Persistence/bin/Debug/net5.0/Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Persistence/bin/Debug/net5.0/Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Persistence/bin/Debug/net5.0/Domain.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Persistence/bin/Debug/net5.0/Persistence.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Persistence/bin/Debug/net5.0/Persistence.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Persistence/bin/Debug/net5.0/Persistence.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Persistence/bin/Debug/net5.0/Persistence.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Persistence/bin/Debug/net5.0/ref/Persistence.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Persistence/bin/Debug/net5.0/ref/Persistence.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Persistence/obj/Debug/net5.0/Persistence.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Persistence/obj/Debug/net5.0/Persistence.csproj.AssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Persistence/obj/Debug/net5.0/Persistence.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Persistence/obj/Debug/net5.0/Persistence.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Persistence/obj/Debug/net5.0/Persistence.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Persistence/obj/Debug/net5.0/Persistence.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Persistence/obj/Debug/net5.0/Persistence.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Persistence/obj/Debug/net5.0/Persistence.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Persistence/obj/Debug/net5.0/ref/Persistence.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Persistence/obj/Debug/net5.0/ref/Persistence.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-app/src/app/stores/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/src/app/stores/store.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-app/src/features/activities/details/ActivityDetails.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/src/features/activities/details/ActivityDetails.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-app/src/features/activities/details/ActivtyDetailedChat.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/src/features/activities/details/ActivtyDetailedChat.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +81,6 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/ac26cfdf462b65acb9acc2a1373bbdb2d1e258864aa2735e55ce53ebe8b22e/UserManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/6174ef57b3ad9a0e019dfdc12747b92db75a66e9666f2c9e6a6ad4b8dd6c54/AuthorizeAttribute.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/c8de87a6e4579b8163bc83f8a9c793cdbf2abc4e7e76671d74ada5555478234f/LoggerT.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/ibrag/RiderProjects/Reactivities/Domain/Activity.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
