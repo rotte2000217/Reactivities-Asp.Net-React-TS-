@@ -10,25 +10,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e3f7e88d-7d9a-4d60-89ab-4d36dc5fd97e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Application/Core/PagedList.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/Core/PagingParams.cs" afterDir="false" />
+    <list default="true" id="e3f7e88d-7d9a-4d60-89ab-4d36dc5fd97e" name="Changes" comment="List.cs class with pagination">
+      <change afterPath="$PROJECT_DIR$/Application/Activities/ActivityParams.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Application/Profiles/ListActivities.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Application/Profiles/UserActivityDto.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Reactivities/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Reactivities/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application/Activities/List.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Activities/List.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Core/MappingProfiles.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Core/MappingProfiles.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application/bin/Debug/net5.0/Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Application/bin/Debug/net5.0/Application.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application/bin/Debug/net5.0/Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Application/bin/Debug/net5.0/Application.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application/bin/Debug/net5.0/ref/Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Application/bin/Debug/net5.0/ref/Application.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/obj/Debug/net5.0/Application.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Application/obj/Debug/net5.0/Application.csproj.AssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application/obj/Debug/net5.0/Application.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Application/obj/Debug/net5.0/Application.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application/obj/Debug/net5.0/Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Application/obj/Debug/net5.0/Application.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application/obj/Debug/net5.0/Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Application/obj/Debug/net5.0/Application.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application/obj/Debug/net5.0/ref/Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Application/obj/Debug/net5.0/ref/Application.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Application/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/obj/Debug/net5.0/Domain.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/Debug/net5.0/Domain.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Persistence/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Persistence/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-app/src/app/layout/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/src/app/layout/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-app/src/app/api/agent.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/src/app/api/agent.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-app/src/app/models/profile.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/src/app/models/profile.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-app/src/app/stores/ProfileStore.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/src/app/stores/ProfileStore.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-app/src/app/stores/activityStore.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/src/app/stores/activityStore.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-app/src/features/activities/dashboard/ActivityDashboard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/src/features/activities/dashboard/ActivityDashboard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-app/src/features/activities/dashboard/ActivityFilters.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/src/features/activities/dashboard/ActivityFilters.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client-app/src/features/activities/home/HomePage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/src/features/activities/home/HomePage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-app/src/features/activities/profiles/ProfileContent.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/src/features/activities/profiles/ProfileContent.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +65,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/6174ef57b3ad9a0e019dfdc12747b92db75a66e9666f2c9e6a6ad4b8dd6c54/AuthorizeAttribute.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/ac26cfdf462b65acb9acc2a1373bbdb2d1e258864aa2735e55ce53ebe8b22e/UserManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/c8de87a6e4579b8163bc83f8a9c793cdbf2abc4e7e76671d74ada5555478234f/LoggerT.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/ibrag/RiderProjects/Reactivities/Application/Activities/List.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -176,7 +182,7 @@
       <workItem from="1643095439031" duration="19327000" />
       <workItem from="1643188119878" duration="39320000" />
       <workItem from="1643614291704" duration="10270000" />
-      <workItem from="1644049197780" duration="5210000" />
+      <workItem from="1644049197780" duration="12568000" />
     </task>
     <task id="LOCAL-00001" summary="Added React-TS Client-App">
       <created>1641327295077</created>
@@ -472,7 +478,21 @@
       <option name="project" value="LOCAL" />
       <updated>1643874933963</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="ended with pagination and sorting on backend side">
+      <created>1644060953472</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1644060953472</updated>
+    </task>
+    <task id="LOCAL-00044" summary="List.cs class with pagination">
+      <created>1644060986604</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1644060986604</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -511,8 +531,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Changed Home Page UI, changed Activities UI, changed ActivityDetails" />
-    <MESSAGE value="added Validator for error handling For create requests" />
     <MESSAGE value="using all error handling in Application.csproj&#10;in Activities directory" />
     <MESSAGE value="Added handling errors in front side" />
     <MESSAGE value="Using library Formik added in ActivityForm.tsx many forms &#10;created DateInput, SelectInput, TextArea, TextInput, checking for empty forms" />
@@ -536,6 +554,8 @@
     <MESSAGE value="Added Create and List comments for SignalR and written Hub class for connecting." />
     <MESSAGE value="Ended with followers and followings on client-side" />
     <MESSAGE value="added in ProfilePage.tsx empty array on followers" />
-    <option name="LAST_COMMIT_MESSAGE" value="added in ProfilePage.tsx empty array on followers" />
+    <MESSAGE value="ended with pagination and sorting on backend side" />
+    <MESSAGE value="List.cs class with pagination" />
+    <option name="LAST_COMMIT_MESSAGE" value="List.cs class with pagination" />
   </component>
 </project>
