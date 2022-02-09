@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace Persistence.Migrations
 {
-    public partial class PGInitial : Migration
+    public partial class SQLSERVERInitial : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

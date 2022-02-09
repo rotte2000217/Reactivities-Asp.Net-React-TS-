@@ -10,8 +10,8 @@ using Persistence;
 namespace Persistence.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20220209120958_PGInitial")]
-    partial class PGInitial
+    [Migration("20220209122950_SQLSERVERInitial")]
+    partial class SQLSERVERInitial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
