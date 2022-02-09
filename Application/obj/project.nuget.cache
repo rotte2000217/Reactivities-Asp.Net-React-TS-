@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "xRxszsT+iAii/VgKgryceUhS5YVaWi+udkUH+5QK786J+dFdeDJE3pgtaEELhajpnPQmXIDA9CLkvysfPTV+vw==",
+  "dgSpecHash": "oEu90yi7ASvGii7CFMWJQy1Y6pexvpJd7XmlFPDFLTPDUUWRtttQ2b2nYCSurtVYl/M1IMn3kr3y+wNCcVx6jw==",
   "success": true,
   "projectFilePath": "C:\\Users\\ibrag\\RiderProjects\\Reactivities\\Application\\Application.csproj",
   "expectedPackageFiles": [
@@ -45,6 +45,8 @@
     "C:\\Users\\ibrag\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\ibrag\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
     "C:\\Users\\ibrag\\.nuget\\packages\\newtonsoft.json\\10.0.1\\newtonsoft.json.10.0.1.nupkg.sha512",
+    "C:\\Users\\ibrag\\.nuget\\packages\\npgsql\\5.0.10\\npgsql.5.0.10.nupkg.sha512",
+    "C:\\Users\\ibrag\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\5.0.10\\npgsql.entityframeworkcore.postgresql.5.0.10.nupkg.sha512",
     "C:\\Users\\ibrag\\.nuget\\packages\\runtime.native.system\\4.3.0\\runtime.native.system.4.3.0.nupkg.sha512",
     "C:\\Users\\ibrag\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
     "C:\\Users\\ibrag\\.nuget\\packages\\system.collections.concurrent\\4.3.0\\system.collections.concurrent.4.3.0.nupkg.sha512",
